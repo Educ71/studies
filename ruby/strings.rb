@@ -1,6 +1,8 @@
 # String
 #
 require 'test/unit'
+extend Test::Unit::Assertions
+require 'test/unit'
 Test::Unit::Assertions
 # ConcatenaÃ§Ã£o
 string = 'Ola, ' + 'Mundo'

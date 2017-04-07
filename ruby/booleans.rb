@@ -1,7 +1,7 @@
 # Boolean (true/false)
 #
 require 'test/unit'
-Test::Unit::Assertions
+extend Test::Unit::Assertions
 def tipo_valor(condicao)
   if condicao
     'verdadeiro'
